@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video-container {
+  display: flex;
+  width: 550px;
+  padding: 1rem;
+  justify-content: space-around;
+}
+.video-item > h2 {
+  text-align: center;
+}
+.video-item > video {
+  width: 250px;
+  height: 188px;
+  border: 1px solid #333;
+}
+
+button,
+a {
+  border: none;
+  color: #fff;
+  background: #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover,
+a:hover {
+  background: #00bfa5;
+}
+button:focus {
+  outline: none;
+}
+.active {
+  background: #00bfa5;
+  /* background: #1565c0; */
+}
